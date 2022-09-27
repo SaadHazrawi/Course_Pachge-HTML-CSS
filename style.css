@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.course {
+    margin: 50px auto;
+    width: 90%;
+    min-height: 90vh;
+    background-color: #673ab7;
+    border-radius: 20px;
+}
+
+.course .title {
+    padding-top: 30px;
+    margin-bottom: 90px;
+}
+
+.course .title h1 {
+    color: #fff;
+    font-size: 28px;
+}
+
+.course .title p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.course .card {
+    display: flex;
+    margin-top: 60px;
+
+
+}
+
+.course .card .section {
+    background-color: #eee;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.course .card .section .name-course h2 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
+
+}
+
+.course .card .section .name-course i {
+    display: inline-block;
+    color: #ffc107;
+    font-size: 20px;
+
+}
+
+.course .card .section ul li {
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.course .card .left {
+    flex-basis: 70%;
+    z-index: 2;
+    margin-right: -5px;
+    box-shadow: 4px 3px 8px 0px #3f51b5;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.course .card .section .money {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course .card .right {
+    z-index: 1;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: -10px;
+    flex-basis: 50%;
+}
+
+
+.course .card .section .money .dolar i {
+    font-size: 20px;
+    color: #000000a3;
+}
+
+.course .card .section .money .dolar span {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000d1;
+}
+
+.course .card .section .money .dolar sub {
+    font-size: 16px;
+    font-weight: 300;
+}
+.course .card .section .money a{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffc107bd;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -ms-transition: 0.7s ease;
+    -o-transition: 0.7s ease;
+}
+.course .card .section .money a:hover{
+    border: 1px solid #ffc107bd;
+    background-color: white;
+    color: #ffc107bd;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+@media  (max-width:830px) {
+    .course .card{
+        flex-direction: column;
+        margin-top: 0px;
+        overflow: hidden;  
+    }
+    .course{
+        margin-top: 20px;
+    }
+    .course .card .left{
+        margin-bottom: 0px;
+    }
+    .course .card .right{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .course .title{
+        margin-bottom: 50px;
+    }
+}
